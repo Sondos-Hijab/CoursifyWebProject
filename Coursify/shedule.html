@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>schedule</title>
+    <script src="https://kit.fontawesome.com/ef1c326a28.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.1.js"></script>
+    <meta name="view" content="width-device-width, initial-scale=1,maximum-scale=1">
+</head>
+<body>
+<input type="checkbox" id="nav-toggle">
+
+
+<!-- adding a sidebar -->
+
+
+
+
+
+    <div class="sidebar-menu">
+
+        <ul>
+            <li>
+                <a href="index.php" class="active">
+
+                    <i class="fa-solid fa-house-user"></i>
+
+                    <span class="home"> Home</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="profile.php" >
+
+                    <i class="fa-solid fa-user"></i>
+
+                    <span class="profile"> Profile</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="courses.php">
+                    <i class="fa-solid fa-book"></i>
+                    <span class="course"> My Courses</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="completed.php">
+                    <i class="fa-solid fa-certificate"></i>
+                    <span class="certificates"> Certificates</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="shedule.html">
+                    <i class="fa-solid fa-calendar-check"></i>
+                    <span class="schedule"> Schedule</span>
+                </a>
+            </li>
+            <li>
+                <a href="../signout.php">
+                    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    <span class="signout"> Sign out</span>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+
+
+
+<div class="main">
+    <header>
+
+        <div class="sidebar-name">
+            <div class="dash">
+                <h2 class="d">
+
+                    <label for="nav-toggle" class="l">
+<span>
+            <i class="fa-solid fa-bars"></i>
+</span>
+                    </label>
+
+                </h2>
+            </div>
+            <span class="pname">Coursify</span>
+
+        </div>
+        <div class="search">
+
+            <form action="search.php" method="post">
+                <input type="text"
+                       placeholder=" Search Courses"
+                       name="searchCourse" >
+
+                <button type=submit" name="search" style="background-color: white">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                </button>
+
+            </form>
+
+        </div>
+
+
+    </header>
+</div>
+
+
+<div class="main-content-sch">
+    <br />
+    <h2 class="sh1-name">Schedule</h2>
+
+    <div class="container-sch">
+
+        <div class="table-responsive">
+            <table class="table table-bordered text-center">
+                <thead>
+                <tr class="bg-light-gray">
+                    <th class="text-uppercase">Time
+                    </th>
+                    <th class="text-uppercase">Monday</th>
+                    <th class="text-uppercase">Tuesday</th>
+                    <th class="text-uppercase">Wednesday</th>
+                    <th class="text-uppercase">Thursday</th>
+                    <th class="text-uppercase">Friday</th>
+                    <th class="text-uppercase">Saturday</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="align-middle">09:00am</td>
+                    <td>
+                        <h4 class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Photoshop</h4>
+                        <div class="margin-10px-top font-size14">9:00-10:00</div>
+                        <div class="font-size13 text-light-gray">Ivana Wong</div>
+                    </td>
+                    <td>
+                        <h4  class="bg-green padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Basics of Drawing</h4 >
+                        <div class="margin-10px-top font-size14">9:00-10:00</div>
+                        <div class="font-size13 text-light-gray">Marta Healy</div>
+                    </td>
+
+                    <td>
+                        <h4  class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">SQL Basics</h4 >
+                        <div class="margin-10px-top font-size14">9:00-10:00</div>
+                        <div class="font-size13 text-light-gray">Ivana Wong</div>
+                    </td>
+                    <td>
+                        <h4  class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Photoshop</h4 >
+                        <div class="margin-10px-top font-size14">9:00-10:00</div>
+                        <div class="font-size13 text-light-gray">Ivana Wong</div>
+                    </td>
+                    <td>
+                        <h4  class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Art</h4 >
+                        <div class="margin-10px-top font-size14">9:00-10:00</div>
+                        <div class="font-size13 text-light-gray">Kate Alley</div>
+                    </td>
+                    <td>
+                        <h4   class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">English</h4  >
+                        <div class="margin-10px-top font-size14">9:00-10:00</div>
+                        <div class="font-size13 text-light-gray">James Smith</div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="align-middle">10:00am</td>
+                    <td>
+                        <h4   class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">SQL Basics</h4  >
+                        <div class="margin-10px-top font-size14">10:00-11:00</div>
+                        <div class="font-size13 text-light-gray">Ivana Wong</div>
+                    </td>
+                    <td class="bg-light-gray">
+
+                    </td>
+                    <td>
+                        <h4 class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Art</h4>
+                        <div class="margin-10px-top font-size14">10:00-11:00</div>
+                        <div class="font-size13 text-light-gray">Kate Alley</div>
+                    </td>
+                    <td>
+                        <h4 class="bg-green padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Basics of Drawing</h4>
+                        <div class="margin-10px-top font-size14">10:00-11:00</div>
+                        <div class="font-size13 text-light-gray">Marta Healy</div>
+                    </td>
+                    <td>
+                        <h4 class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">English</h4>
+                        <div class="margin-10px-top font-size14">10:00-11:00</div>
+                        <div class="font-size13 text-light-gray">James Smith</div>
+                    </td>
+                    <td class="bg-light-gray">
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="align-middle">11:00am</td>
+                    <td>
+                        <h4 class="bg-lightred padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Break</h4>
+                        <div class="margin-10px-top font-size14">11:00-12:00</div>
+                    </td>
+                    <td>
+                        <h4 class="bg-lightred padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Break</h4>
+                        <div class="margin-10px-top font-size14">11:00-12:00</div>
+                    </td>
+                    <td>
+                        <h4 class="bg-lightred padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Break</h4>
+                        <div class="margin-10px-top font-size14">11:00-12:00</div>
+                    </td>
+                    <td>
+                        <h4 class="bg-lightred padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Break</h4>
+                        <div class="margin-10px-top font-size14">11:00-12:00</div>
+                    </td>
+                    <td>
+                        <h4 class="bg-lightred padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Break</h4>
+                        <div class="margin-10px-top font-size14">11:00-12:00</div>
+                    </td>
+                    <td>
+                        <h4 class="bg-lightred padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Break</h4>
+                        <div class="margin-10px-top font-size14">11:00-12:00</div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="align-middle">12:00pm</td>
+                    <td class="bg-light-gray">
+
+                    </td>
+                    <td>
+                        <h4 class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Art</h4>
+                        <div class="margin-10px-top font-size14">12:00-1:00</div>
+                        <div class="font-size13 text-light-gray">Kate Alley</div>
+                    </td>
+                    <td>
+                        <h4 class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Photoshop</h4>
+                        <div class="margin-10px-top font-size14">12:00-1:00</div>
+                        <div class="font-size13 text-light-gray">Ivana Wong</div>
+                    </td>
+                    <td>
+                        <h4 class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">SQL Basics</h4>
+                        <div class="margin-10px-top font-size14">12:00-1:00</div>
+                        <div class="font-size13 text-light-gray">Ivana Wong</div>
+                    </td>
+                    <td class="bg-light-gray">
+
+                    </td>
+                    <td>
+                        <h4 class="bg-green padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Basics of Drawing</h4>
+                        <div class="margin-10px-top font-size14">12:00-1:00</div>
+                        <div class="font-size13 text-light-gray">Marta Healy</div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="align-middle">01:00pm</td>
+                    <td>
+                        <h4 class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">English</h4>
+                        <div class="margin-10px-top font-size14">1:00-2:00</div>
+                        <div class="font-size13 text-light-gray">James Smith</div>
+                    </td>
+                    <td>
+                        <h4 class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">SQL Basics</h4>
+                        <div class="margin-10px-top font-size14">1:00-2:00</div>
+                        <div class="font-size13 text-light-gray">Ivana Wong</div>
+                    </td>
+                    <td class="bg-light-gray">
+
+                    </td>
+                    <td>
+                        <h4 class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">English</h4>
+                        <div class="margin-10px-top font-size14">1:00-2:00</div>
+                        <div class="font-size13 text-light-gray">James Smith</div>
+                    </td>
+                    <td>
+                        <h4 class="bg-green padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Basics of Drawing</h4>
+                        <div class="margin-10px-top font-size14">1:00-2:00</div>
+                        <div class="font-size13 text-light-gray">Marta Healy</div>
+                    </td>
+                    <td>
+                        <h4 class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">SQL Basics</h4>
+                        <div class="margin-10px-top font-size14">1:00-2:00</div>
+                        <div class="font-size13 text-light-gray">Ivana Wong</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="align-middle"> 02:00pm</td>
+                    <td>
+                        <h4   class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">SQL Basics</h4  >
+                        <div class="margin-10px-top font-size14">10:00-11:00</div>
+                        <div class="font-size13 text-light-gray">Ivana Wong</div>
+                    </td>
+                    <td class="bg-light-gray">
+
+                    </td>
+                    <td>
+                        <h4 class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Art</h4>
+                        <div class="margin-10px-top font-size14">10:00-11:00</div>
+                        <div class="font-size13 text-light-gray">Kate Alley</div>
+                    </td>
+                    <td>
+                        <h4 class="bg-green padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Basics of Drawing</h4>
+                        <div class="margin-10px-top font-size14">10:00-11:00</div>
+                        <div class="font-size13 text-light-gray">Marta Healy</div>
+                    </td>
+                    <td>
+                        <h4 class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">English</h4>
+                        <div class="margin-10px-top font-size14">10:00-11:00</div>
+                        <div class="font-size13 text-light-gray">James Smith</div>
+                    </td>
+                    <td class="bg-light-gray">
+
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>
