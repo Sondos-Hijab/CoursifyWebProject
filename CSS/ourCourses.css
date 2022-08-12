@@ -1,0 +1,106 @@
+/* Start Variables */
+:root {
+    --main-color: #13B6F5;
+    --secondary-color: #2F47C6;
+    --section-padding: 60px;
+    --section-background: #f6f6f6;
+    --main-duration: 0.5s;
+  }
+  /* End Variables */
+/* Start Components */
+.special-heading {
+    color: #ebeced;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: -3px;
+    margin: 0;
+  }
+  .special-heading + p {
+    margin: -30px 0 0;
+    font-size: 16px;
+    text-align: center;
+    color: #13B6F5;
+  }
+  @media (max-width: 767px) {
+    .special-heading {
+      font-size: 60px;
+    }
+    .special-heading + p {
+      margin-top: -20px;
+    }
+  }
+  /* end compnents */
+
+
+/* Start Video */
+.video {
+    position: relative;
+  }
+  .video::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .video video {
+    width: 100%;
+  }
+
+
+  /* End Video */
+
+  /* Start Skills */
+.our-skills {
+    padding-top: var(--main-padding-top);
+    padding-bottom: var(--main-padding-bottom);
+    position: relative;
+  }
+  .our-skills .container {
+    display: flex;
+    align-items: center;
+  }
+
+  .our-skills .container  img {
+      width: 50%;
+      margin-right:5%;
+  }
+  @media (max-width: 991px) {
+    .our-skills img {
+      display: none;
+    }
+  }
+  .our-skills .skills {
+    flex: 1;
+  }
+  .our-skills .skill h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .our-skills .skill h3 span {
+    font-size: 12px;
+    border: 1px solid #ccc;
+    padding: 3px 5px;
+    border-radius: 4px;
+    color: var(--main-color);
+  }
+  .our-skills .skill .the-progress {
+    height: 30px;
+    background-color: #eee;
+    position: relative;
+  }
+  .our-skills .skill .the-progress span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: #13B6F5;
+    transition: widthTran 1s linear;
+  }
+  /* End Skills */
+
+  
+
